@@ -26,7 +26,7 @@ The script works well at least for python versions 3.7 through 3.10.
 For example, for the project from django tutorial (https://docs.djangoproject.com/en/3.2/intro/tutorial01/ ... https://docs.djangoproject.com/en/3.2/intro/tutorial07) 
 the dependencies might be arranged this way (in Paint program, or by hand, after printing out to paper):
 
-![user gets:](django - imports.png)
+![user gets:](django_imports.png)
 
 Here, the first column contains information about files that do not refer to any files in current project,
 and further relations are shown with green lines (manually).
