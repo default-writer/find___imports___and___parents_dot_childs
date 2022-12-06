@@ -8,9 +8,11 @@ import sys
 # (sootvetstvenno, nado iskatj stroki, soderzhaschie slovo import i konstrukzii vida aa.bb(.cc...))
 # pri etom, esli import zapisan v neskolko strok (import a,\n b, \n c), budet vyvedena tolko pervaya stroka
 # (stroka, v kotoroy estj slovo "import")
-# (sm. takzhe poyasneniya k nastroykam:)
+# Comments are not always written in English since I had little time and wrote the script for myself.
+# Maybe, I should make comments look better... I am not sure.
+# (sm. takzhe poyasneniya k nastroykam (settings):)
 
-######### (Nastroyki - nachalo:) #########
+######### (Settings - begin:) #########
 
 # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 path_to_dir_for_analysis = r'.' #r'D:\_Maria\My_python_projects\pythonProject0011_by_Django_docs___First_app__continued\mysite'
@@ -54,7 +56,7 @@ debug_mode = 'off'   # 'on'/'off'
 # if 'on', intermediate printouts will be made
 
 # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-######### (Nastroyki - konetz) #########
+######### (Settings - end) #########
 #==================================================================================
 
 def procedure_1_read_file_into_chars():

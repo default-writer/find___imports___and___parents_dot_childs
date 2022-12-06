@@ -4,16 +4,13 @@ or also those that contain constructions like "parent.child(.child...)"
 
 Note 1: if the names of imported modules are placed on strings below the string that
 contains the word "import", they will not be detected.  
-Note 2: Filenames ('name.extension') also match the regexp pattern (like 'parent.child'), so they also get into the output (should be erased manually if bother).
+Note 2: Filenames ('name.extension') also match the regexp pattern (like 'parent.child'), so they also get into the output (should be erased manually if needed).
 
 Settings and explanatory notes can be found between    
-'######### (Nastroyki - nachalo:) #########'  
+'######### (Settings - begin:) #########'  
 and  
-'######### (Nastroyki - konetz) #########',  
+'######### (Settings - end) #########',  
 and no changes should be made to the code outside them.
-
-Comments are not always written in English since I had little time and wrote the script for myself.
-Maybe, I should make comments look better... I am not sure. 
 
 The script is a single file which can be put inside (or near) a project.
 It has no dependencies, so no additions to virtual environment are required.
