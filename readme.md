@@ -1,5 +1,5 @@
 The script reveals relations between files in specified directory.
-Depending on the selected regular expression, it outputs lines that contain a word "import",
+Depending on the selected regular expression, it outputs lines (starting with line number) that contain a word "import",
 or also those that contain constructions like "parent.child(.child...)"
 
 Note 1: if the names of imported modules are placed on strings below the string that
