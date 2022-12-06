@@ -12,7 +12,7 @@ and
 '######### (Settings - end) #########',  
 and no changes should be made to the code outside them.
 
-The script is a single file which can be put inside (or near) a project.
+The script is a single file which can be put inside a project (or anywhere else if appropriate settings are made).
 It has no dependencies, so no additions to virtual environment are required.
 All imported modules are standard.
 The script works well at least for python versions 3.7 through 3.10.

@@ -15,7 +15,7 @@ import sys
 ######### (Settings - begin:) #########
 
 # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-path_to_dir_for_analysis = r'.' #r'D:\_Maria\My_python_projects\pythonProject0011_by_Django_docs___First_app__continued\mysite'
+path_to_dir_for_analysis = r'.'
 extensions_of_files_for_analysis = ['.py', '.htm', '.html', '']   # naprimer ['.py', '.htm', '.html', ''] (s tochkoy v nachale)
 # path_to_dir_for_analysis  - bez \ na kontze
 
@@ -42,7 +42,7 @@ flag_exclude_comments = 'on'   # 'on'/'off' (for most cases 'on' is ok)
 # one should turn off comments exclusion so that the whole text of .py file would be analyzed
 
 # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-vyrazh = re.compile("(?i)(ImPORT)")
+vyrazh = re.compile("(?i)(ImPORT)|((\w+)((\.(\w+))+))")
 
 # esli    vyrazh = re.compile("([I,i][M,m][P,p][O,o][R,r][T,t])|((\w+)((\.(\w+))+))")
 #     ili vyrazh = re.compile("(?i)(ImPORT)|((\w+)((\.(\w+))+))")
