@@ -19,12 +19,6 @@ case "${install}" in
         git config --global --unset pull.rebase
         ;;
 
-    "--submodule") # deinits git submodule rexo and cleans up rexo directories
-        git submodule deinit -f src/rexo
-        rm -rf .git/modules/src/rexo
-        git rm -f src/rexo
-        ;;
-
     "--hooks") # removes prepare-commit-msg hook from .git
         rm -rf .git/hooks/prepare-commit-msg
         ;;
