@@ -14,12 +14,6 @@ install="$1"
 
 case "${install}" in
 
-    "--llvm") # installs llvm and llvm-cov
-        apt update -y
-        apt install -y llvm
-        apt upgrade -y
-        ;;
-
     "--zsh") # installs zsh
         apt update -y
         apt install -y zsh
@@ -55,12 +49,6 @@ case "${install}" in
         apt update -y
         apt install -y build-essential curl git ca-certificates python3 python3-dev python3-pip python3-venv python3-behave python3-virtualenv
         apt install -y --only-upgrade apport apport-gtk python3-apport python3-problem-report
-        apt upgrade -y
-        ;;
-
-    "--cmake") # installs cmake
-        apt update -y
-        apt install -y --no-install-recommends curl ca-certificates git build-essential lldb lcov cmake clangd g++ gcc gdb lcov ninja-build
         apt upgrade -y
         ;;
 
