@@ -249,8 +249,8 @@ def procedure_3_with_regexp_find_and_print_relations():
 
 #========================================================================================
 
-# sobiraem:
-if __name__ == '__main__':
+
+def main():
     # obnuliaem ili sozdaem fail s resultatami:
     if file_results_out:  # to estj esli file_out zadan
         with open(file_results_out, 'wt', encoding=out_file_encoding) as results_file:
@@ -276,4 +276,7 @@ if __name__ == '__main__':
                                   path_to_current_file, '\n')
                         procedure_3_with_regexp_find_and_print_relations()
 
+# sobiraem:
 
+if __name__ == '__main__':
+    main()
